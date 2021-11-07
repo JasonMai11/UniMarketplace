@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_College_MarketPlace_College_MarketPlaceUITests : NSObject
+@end
+@implementation PodsDummy_Pods_College_MarketPlace_College_MarketPlaceUITests
+@end

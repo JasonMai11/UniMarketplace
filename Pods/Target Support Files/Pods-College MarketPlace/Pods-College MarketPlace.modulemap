@@ -1,0 +1,6 @@
+framework module Pods_College_MarketPlace {
+  umbrella header "Pods-College MarketPlace-umbrella.h"
+
+  export *
+  module * { export * }
+}

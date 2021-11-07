@@ -1,0 +1,799 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1485A4FE2DB63EA1E960163D /* Pods_College_MarketPlace_College_MarketPlaceUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0553EAF591C11DF0BC3A2F7 /* Pods_College_MarketPlace_College_MarketPlaceUITests.framework */; };
+		BBA492CDDF3033B225275860 /* Pods_College_MarketPlaceTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9BE022865530D219196C933 /* Pods_College_MarketPlaceTests.framework */; };
+		CE302C332736565300D1AE33 /* CollegeMarketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE302C322736565300D1AE33 /* CollegeMarketViewController.swift */; };
+		CE49EA662730959C008986A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE49EA652730959C008986A2 /* AppDelegate.swift */; };
+		CE49EA682730959C008986A2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE49EA672730959C008986A2 /* SceneDelegate.swift */; };
+		CE49EA6D2730959C008986A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE49EA6B2730959C008986A2 /* Main.storyboard */; };
+		CE49EA6F2730959F008986A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE49EA6E2730959F008986A2 /* Assets.xcassets */; };
+		CE49EA722730959F008986A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE49EA702730959F008986A2 /* LaunchScreen.storyboard */; };
+		CE49EA7D273095A0008986A2 /* College_MarketPlaceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE49EA7C273095A0008986A2 /* College_MarketPlaceTests.swift */; };
+		CE49EA87273095A0008986A2 /* College_MarketPlaceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE49EA86273095A0008986A2 /* College_MarketPlaceUITests.swift */; };
+		CE49EA89273095A0008986A2 /* College_MarketPlaceUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE49EA88273095A0008986A2 /* College_MarketPlaceUITestsLaunchTests.swift */; };
+		CE518CCA2730AB0F001FFED8 /* LoginSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE518CC92730AB0F001FFED8 /* LoginSignUpViewController.swift */; };
+		CE518CCC2730AB38001FFED8 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE518CCB2730AB38001FFED8 /* FeedViewController.swift */; };
+		CE9E3CD22737593F000A4063 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9E3CD12737593F000A4063 /* TabBarViewController.swift */; };
+		CEFB8D232736E76D0085458D /* PostProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFB8D222736E76D0085458D /* PostProductViewController.swift */; };
+		CEFB8D25273725890085458D /* PostViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFB8D24273725880085458D /* PostViewCell.swift */; };
+		EFA378000F816250F0B9CB79 /* Pods_College_MarketPlace.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 787B3494AEFAFB22F2D85F2B /* Pods_College_MarketPlace.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE49EA79273095A0008986A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE49EA5A2730959C008986A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE49EA612730959C008986A2;
+			remoteInfo = "College MarketPlace";
+		};
+		CE49EA83273095A0008986A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE49EA5A2730959C008986A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE49EA612730959C008986A2;
+			remoteInfo = "College MarketPlace";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		647ECD22E54B2917C96E6767 /* Pods-College MarketPlace-College MarketPlaceUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-College MarketPlace-College MarketPlaceUITests.debug.xcconfig"; path = "Target Support Files/Pods-College MarketPlace-College MarketPlaceUITests/Pods-College MarketPlace-College MarketPlaceUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		764BAF2C47028483A7E10690 /* Pods-College MarketPlaceTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-College MarketPlaceTests.debug.xcconfig"; path = "Target Support Files/Pods-College MarketPlaceTests/Pods-College MarketPlaceTests.debug.xcconfig"; sourceTree = "<group>"; };
+		787B3494AEFAFB22F2D85F2B /* Pods_College_MarketPlace.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_College_MarketPlace.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8022BE4CC2C0B7E45B07C7AF /* Pods-College MarketPlaceTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-College MarketPlaceTests.release.xcconfig"; path = "Target Support Files/Pods-College MarketPlaceTests/Pods-College MarketPlaceTests.release.xcconfig"; sourceTree = "<group>"; };
+		81F4CED072C8C92D15860505 /* Pods-College MarketPlace-College MarketPlaceUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-College MarketPlace-College MarketPlaceUITests.release.xcconfig"; path = "Target Support Files/Pods-College MarketPlace-College MarketPlaceUITests/Pods-College MarketPlace-College MarketPlaceUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B0553EAF591C11DF0BC3A2F7 /* Pods_College_MarketPlace_College_MarketPlaceUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_College_MarketPlace_College_MarketPlaceUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE302C322736565300D1AE33 /* CollegeMarketViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollegeMarketViewController.swift; sourceTree = "<group>"; };
+		CE49EA622730959C008986A2 /* College MarketPlace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "College MarketPlace.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE49EA652730959C008986A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CE49EA672730959C008986A2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CE49EA6C2730959C008986A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE49EA6E2730959F008986A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE49EA712730959F008986A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE49EA732730959F008986A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE49EA78273095A0008986A2 /* College MarketPlaceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "College MarketPlaceTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE49EA7C273095A0008986A2 /* College_MarketPlaceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = College_MarketPlaceTests.swift; sourceTree = "<group>"; };
+		CE49EA82273095A0008986A2 /* College MarketPlaceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "College MarketPlaceUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE49EA86273095A0008986A2 /* College_MarketPlaceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = College_MarketPlaceUITests.swift; sourceTree = "<group>"; };
+		CE49EA88273095A0008986A2 /* College_MarketPlaceUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = College_MarketPlaceUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CE518CC92730AB0F001FFED8 /* LoginSignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginSignUpViewController.swift; sourceTree = "<group>"; };
+		CE518CCB2730AB38001FFED8 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		CE9E3CD12737593F000A4063 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		CEFB8D222736E76D0085458D /* PostProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostProductViewController.swift; sourceTree = "<group>"; };
+		CEFB8D24273725880085458D /* PostViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewCell.swift; sourceTree = "<group>"; };
+		D9BE022865530D219196C933 /* Pods_College_MarketPlaceTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_College_MarketPlaceTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAB57583F42307EA72D414BC /* Pods-College MarketPlace.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-College MarketPlace.debug.xcconfig"; path = "Target Support Files/Pods-College MarketPlace/Pods-College MarketPlace.debug.xcconfig"; sourceTree = "<group>"; };
+		F50EA65DC83FDD3D5112F38C /* Pods-College MarketPlace.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-College MarketPlace.release.xcconfig"; path = "Target Support Files/Pods-College MarketPlace/Pods-College MarketPlace.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE49EA5F2730959C008986A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFA378000F816250F0B9CB79 /* Pods_College_MarketPlace.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE49EA75273095A0008986A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBA492CDDF3033B225275860 /* Pods_College_MarketPlaceTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE49EA7F273095A0008986A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1485A4FE2DB63EA1E960163D /* Pods_College_MarketPlace_College_MarketPlaceUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		586D7CD90F7E9F0226C7B9C4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DAB57583F42307EA72D414BC /* Pods-College MarketPlace.debug.xcconfig */,
+				F50EA65DC83FDD3D5112F38C /* Pods-College MarketPlace.release.xcconfig */,
+				647ECD22E54B2917C96E6767 /* Pods-College MarketPlace-College MarketPlaceUITests.debug.xcconfig */,
+				81F4CED072C8C92D15860505 /* Pods-College MarketPlace-College MarketPlaceUITests.release.xcconfig */,
+				764BAF2C47028483A7E10690 /* Pods-College MarketPlaceTests.debug.xcconfig */,
+				8022BE4CC2C0B7E45B07C7AF /* Pods-College MarketPlaceTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7A44B076E063370158B05578 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				787B3494AEFAFB22F2D85F2B /* Pods_College_MarketPlace.framework */,
+				B0553EAF591C11DF0BC3A2F7 /* Pods_College_MarketPlace_College_MarketPlaceUITests.framework */,
+				D9BE022865530D219196C933 /* Pods_College_MarketPlaceTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE49EA592730959C008986A2 = {
+			isa = PBXGroup;
+			children = (
+				CE49EA642730959C008986A2 /* College MarketPlace */,
+				CE49EA7B273095A0008986A2 /* College MarketPlaceTests */,
+				CE49EA85273095A0008986A2 /* College MarketPlaceUITests */,
+				CE49EA632730959C008986A2 /* Products */,
+				586D7CD90F7E9F0226C7B9C4 /* Pods */,
+				7A44B076E063370158B05578 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CE49EA632730959C008986A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE49EA622730959C008986A2 /* College MarketPlace.app */,
+				CE49EA78273095A0008986A2 /* College MarketPlaceTests.xctest */,
+				CE49EA82273095A0008986A2 /* College MarketPlaceUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE49EA642730959C008986A2 /* College MarketPlace */ = {
+			isa = PBXGroup;
+			children = (
+				CE49EA652730959C008986A2 /* AppDelegate.swift */,
+				CE49EA672730959C008986A2 /* SceneDelegate.swift */,
+				CE49EA6B2730959C008986A2 /* Main.storyboard */,
+				CE49EA6E2730959F008986A2 /* Assets.xcassets */,
+				CE49EA702730959F008986A2 /* LaunchScreen.storyboard */,
+				CE49EA732730959F008986A2 /* Info.plist */,
+				CE518CC92730AB0F001FFED8 /* LoginSignUpViewController.swift */,
+				CE518CCB2730AB38001FFED8 /* FeedViewController.swift */,
+				CE302C322736565300D1AE33 /* CollegeMarketViewController.swift */,
+				CEFB8D222736E76D0085458D /* PostProductViewController.swift */,
+				CEFB8D24273725880085458D /* PostViewCell.swift */,
+				CE9E3CD12737593F000A4063 /* TabBarViewController.swift */,
+			);
+			path = "College MarketPlace";
+			sourceTree = "<group>";
+		};
+		CE49EA7B273095A0008986A2 /* College MarketPlaceTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE49EA7C273095A0008986A2 /* College_MarketPlaceTests.swift */,
+			);
+			path = "College MarketPlaceTests";
+			sourceTree = "<group>";
+		};
+		CE49EA85273095A0008986A2 /* College MarketPlaceUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CE49EA86273095A0008986A2 /* College_MarketPlaceUITests.swift */,
+				CE49EA88273095A0008986A2 /* College_MarketPlaceUITestsLaunchTests.swift */,
+			);
+			path = "College MarketPlaceUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE49EA612730959C008986A2 /* College MarketPlace */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE49EA8C273095A0008986A2 /* Build configuration list for PBXNativeTarget "College MarketPlace" */;
+			buildPhases = (
+				8A42DFCCC00389DCB24CB374 /* [CP] Check Pods Manifest.lock */,
+				CE49EA5E2730959C008986A2 /* Sources */,
+				CE49EA5F2730959C008986A2 /* Frameworks */,
+				CE49EA602730959C008986A2 /* Resources */,
+				3CC81AEDF3712EDB245B75FC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "College MarketPlace";
+			productName = "College MarketPlace";
+			productReference = CE49EA622730959C008986A2 /* College MarketPlace.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE49EA77273095A0008986A2 /* College MarketPlaceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE49EA8F273095A0008986A2 /* Build configuration list for PBXNativeTarget "College MarketPlaceTests" */;
+			buildPhases = (
+				587BD095FDFC2F1478F12E0F /* [CP] Check Pods Manifest.lock */,
+				CE49EA74273095A0008986A2 /* Sources */,
+				CE49EA75273095A0008986A2 /* Frameworks */,
+				CE49EA76273095A0008986A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE49EA7A273095A0008986A2 /* PBXTargetDependency */,
+			);
+			name = "College MarketPlaceTests";
+			productName = "College MarketPlaceTests";
+			productReference = CE49EA78273095A0008986A2 /* College MarketPlaceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CE49EA81273095A0008986A2 /* College MarketPlaceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE49EA92273095A0008986A2 /* Build configuration list for PBXNativeTarget "College MarketPlaceUITests" */;
+			buildPhases = (
+				E7989F67328A88BAC9C24D75 /* [CP] Check Pods Manifest.lock */,
+				CE49EA7E273095A0008986A2 /* Sources */,
+				CE49EA7F273095A0008986A2 /* Frameworks */,
+				CE49EA80273095A0008986A2 /* Resources */,
+				C999D63784181EFF333232DE /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE49EA84273095A0008986A2 /* PBXTargetDependency */,
+			);
+			name = "College MarketPlaceUITests";
+			productName = "College MarketPlaceUITests";
+			productReference = CE49EA82273095A0008986A2 /* College MarketPlaceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE49EA5A2730959C008986A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					CE49EA612730959C008986A2 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					CE49EA77273095A0008986A2 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = CE49EA612730959C008986A2;
+					};
+					CE49EA81273095A0008986A2 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = CE49EA612730959C008986A2;
+					};
+				};
+			};
+			buildConfigurationList = CE49EA5D2730959C008986A2 /* Build configuration list for PBXProject "College MarketPlace" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE49EA592730959C008986A2;
+			productRefGroup = CE49EA632730959C008986A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE49EA612730959C008986A2 /* College MarketPlace */,
+				CE49EA77273095A0008986A2 /* College MarketPlaceTests */,
+				CE49EA81273095A0008986A2 /* College MarketPlaceUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE49EA602730959C008986A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE49EA722730959F008986A2 /* LaunchScreen.storyboard in Resources */,
+				CE49EA6F2730959F008986A2 /* Assets.xcassets in Resources */,
+				CE49EA6D2730959C008986A2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE49EA76273095A0008986A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE49EA80273095A0008986A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3CC81AEDF3712EDB245B75FC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-College MarketPlace/Pods-College MarketPlace-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-College MarketPlace/Pods-College MarketPlace-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-College MarketPlace/Pods-College MarketPlace-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		587BD095FDFC2F1478F12E0F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-College MarketPlaceTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A42DFCCC00389DCB24CB374 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-College MarketPlace-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C999D63784181EFF333232DE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-College MarketPlace-College MarketPlaceUITests/Pods-College MarketPlace-College MarketPlaceUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-College MarketPlace-College MarketPlaceUITests/Pods-College MarketPlace-College MarketPlaceUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-College MarketPlace-College MarketPlaceUITests/Pods-College MarketPlace-College MarketPlaceUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7989F67328A88BAC9C24D75 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-College MarketPlace-College MarketPlaceUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE49EA5E2730959C008986A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE9E3CD22737593F000A4063 /* TabBarViewController.swift in Sources */,
+				CEFB8D25273725890085458D /* PostViewCell.swift in Sources */,
+				CEFB8D232736E76D0085458D /* PostProductViewController.swift in Sources */,
+				CE49EA662730959C008986A2 /* AppDelegate.swift in Sources */,
+				CE518CCA2730AB0F001FFED8 /* LoginSignUpViewController.swift in Sources */,
+				CE518CCC2730AB38001FFED8 /* FeedViewController.swift in Sources */,
+				CE302C332736565300D1AE33 /* CollegeMarketViewController.swift in Sources */,
+				CE49EA682730959C008986A2 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE49EA74273095A0008986A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE49EA7D273095A0008986A2 /* College_MarketPlaceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE49EA7E273095A0008986A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE49EA89273095A0008986A2 /* College_MarketPlaceUITestsLaunchTests.swift in Sources */,
+				CE49EA87273095A0008986A2 /* College_MarketPlaceUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE49EA7A273095A0008986A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE49EA612730959C008986A2 /* College MarketPlace */;
+			targetProxy = CE49EA79273095A0008986A2 /* PBXContainerItemProxy */;
+		};
+		CE49EA84273095A0008986A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE49EA612730959C008986A2 /* College MarketPlace */;
+			targetProxy = CE49EA83273095A0008986A2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CE49EA6B2730959C008986A2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE49EA6C2730959C008986A2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CE49EA702730959F008986A2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE49EA712730959F008986A2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE49EA8A273095A0008986A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE49EA8B273095A0008986A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE49EA8D273095A0008986A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAB57583F42307EA72D414BC /* Pods-College MarketPlace.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X8SB58RMGL;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "College MarketPlace/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "memo.com.College-MarketPlace";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE49EA8E273095A0008986A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F50EA65DC83FDD3D5112F38C /* Pods-College MarketPlace.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X8SB58RMGL;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "College MarketPlace/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "memo.com.College-MarketPlace";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CE49EA90273095A0008986A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 764BAF2C47028483A7E10690 /* Pods-College MarketPlaceTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "memo.com.College-MarketPlaceTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/College MarketPlace.app/College MarketPlace";
+			};
+			name = Debug;
+		};
+		CE49EA91273095A0008986A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8022BE4CC2C0B7E45B07C7AF /* Pods-College MarketPlaceTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "memo.com.College-MarketPlaceTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/College MarketPlace.app/College MarketPlace";
+			};
+			name = Release;
+		};
+		CE49EA93273095A0008986A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 647ECD22E54B2917C96E6767 /* Pods-College MarketPlace-College MarketPlaceUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "memo.com.College-MarketPlaceUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "College MarketPlace";
+			};
+			name = Debug;
+		};
+		CE49EA94273095A0008986A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81F4CED072C8C92D15860505 /* Pods-College MarketPlace-College MarketPlaceUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "memo.com.College-MarketPlaceUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "College MarketPlace";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE49EA5D2730959C008986A2 /* Build configuration list for PBXProject "College MarketPlace" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE49EA8A273095A0008986A2 /* Debug */,
+				CE49EA8B273095A0008986A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE49EA8C273095A0008986A2 /* Build configuration list for PBXNativeTarget "College MarketPlace" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE49EA8D273095A0008986A2 /* Debug */,
+				CE49EA8E273095A0008986A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE49EA8F273095A0008986A2 /* Build configuration list for PBXNativeTarget "College MarketPlaceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE49EA90273095A0008986A2 /* Debug */,
+				CE49EA91273095A0008986A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE49EA92273095A0008986A2 /* Build configuration list for PBXNativeTarget "College MarketPlaceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE49EA93273095A0008986A2 /* Debug */,
+				CE49EA94273095A0008986A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE49EA5A2730959C008986A2 /* Project object */;
+}
