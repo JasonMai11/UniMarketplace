@@ -13,7 +13,7 @@
         <!--Login Sign Up View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="LoginSignUpViewController" customModule="College_MarketPlace" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LoginViewController" id="BYZ-38-t0r" customClass="LoginSignUpViewController" customModule="College_MarketPlace" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -86,7 +86,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="18.840579710144929" y="83.705357142857139"/>
+            <point key="canvasLocation" x="155" y="84"/>
         </scene>
         <!--Feed View Controller-->
         <scene sceneID="rBM-vy-tgm">
@@ -96,16 +96,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <searchBar contentMode="redraw" fixedFrame="YES" placeholder="School" showsCancelButton="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8j4-ua-vSa">
-                                <rect key="frame" x="0.0" y="56" width="414" height="44"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                                <textInputTraits key="textInputTraits"/>
-                                <connections>
-                                    <outlet property="delegate" destination="NoG-3S-bFg" id="1f2-IF-rJi"/>
-                                </connections>
-                            </searchBar>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="Z5M-5d-rCb">
-                                <rect key="frame" x="0.0" y="100" width="414" height="742"/>
+                                <rect key="frame" x="0.0" y="139" width="414" height="703"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
@@ -135,11 +127,25 @@
                                     <outlet property="delegate" destination="NoG-3S-bFg" id="85e-sx-Mme"/>
                                 </connections>
                             </tableView>
+                            <searchBar contentMode="redraw" fixedFrame="YES" placeholder="School" showsCancelButton="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8j4-ua-vSa">
+                                <rect key="frame" x="0.0" y="84" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="NoG-3S-bFg" id="1f2-IF-rJi"/>
+                                </connections>
+                            </searchBar>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="WZa-7h-O3V"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <navigationItem key="navigationItem" id="tPU-zQ-rdY"/>
+                    <navigationItem key="navigationItem" id="tPU-zQ-rdY">
+                        <barButtonItem key="leftBarButtonItem" title="Logout" id="tAd-RL-0Ys">
+                            <connections>
+                                <action selector="onLogout:" destination="NoG-3S-bFg" id="9La-ZQ-aaH"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="searchBar" destination="8j4-ua-vSa" id="tYp-cQ-oAI"/>
                         <outlet property="tableView" destination="Z5M-5d-rCb" id="dxM-oK-jGZ"/>
@@ -147,7 +153,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hSH-hp-Td5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1987" y="84"/>
+            <point key="canvasLocation" x="2098.5507246376815" y="83.705357142857139"/>
         </scene>
         <!--Home-->
         <scene sceneID="doK-fh-8LK">
@@ -213,11 +219,6 @@
                                     </collectionViewCell>
                                 </cells>
                             </collectionView>
-                            <searchBar contentMode="redraw" fixedFrame="YES" text="" translatesAutoresizingMaskIntoConstraints="NO" id="qaP-hb-9CR">
-                                <rect key="frame" x="76" y="56" width="258" height="44"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </searchBar>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="YhC-HC-M0F"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>

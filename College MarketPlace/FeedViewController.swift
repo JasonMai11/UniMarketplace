@@ -2,7 +2,7 @@
 //  FeedViewController.swift
 //  College MarketPlace
 //
-//  Created by Jason Mai on 11/1/21.
+//  Created by Jason Mai on 11/6/21.
 //
 
 import UIKit
@@ -40,6 +40,16 @@ class FeedViewController: UIViewController{
             }
         }
     }
+    
+    @IBAction func onLogout(_ sender: Any) {
+        PFUser.logOut()
+        
+        let main = UIStoryboard(name: "Main", bundle: nil)
+        let loginViewController = main.instantiateViewController(withIdentifier: "LoginViewController")
+        guard let windowScene = UIApplication.shared.connectedScenes.first as? UIWindowScene, let delegate = windowScene.delegate as? SceneDelegate else { return }
+        delegate.window?.rootViewController = loginViewController
+    }
+    
     
     
     // MARK: - Navigation
