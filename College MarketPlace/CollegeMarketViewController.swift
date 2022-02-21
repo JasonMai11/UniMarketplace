@@ -16,7 +16,15 @@ class CollegeMarketViewController: UIViewController, UICollectionViewDelegate, U
     
     var userInputRequest: String = ""
     var posts = [PFObject]()
-
+    
+    var sellerName = ""
+    var sellerItem = ""
+    var sellerCategory = ""
+    var sellerDescription = ""
+    var sellerPrice = ""
+    var urls : URL? = URL(string: "")
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         print(userInputRequest)
@@ -59,19 +67,26 @@ class CollegeMarketViewController: UIViewController, UICollectionViewDelegate, U
         let post = posts[indexPath.row]
         
         let user = post["user"] as! PFUser
-//        cell.usernameLabel.text = user.username
-        cell.priceLabel.text = "$" + (post["price"] as! String)
-        cell.itemLabel.text = (post["item"] as! String)
+        sellerName = user.username!
         
+        cell.priceLabel.text = "$" + (post["price"] as! String)
+        sellerPrice = cell.priceLabel.text!
+        
+        sellerDescription = post["description"] as! String
+        sellerCategory = post["category"] as! String
+        
+        cell.itemLabel.text = (post["item"] as! String)
+        sellerItem = cell.itemLabel.text!
+
         let imageFile = post["image"] as! PFFileObject
         let urlString = imageFile.url!
         let url = URL(string: urlString)
+        urls = url
         cell.photoView.af_setImage(withURL: url!)
         
         return cell
     }
     
-
 
     // MARK: - Navigation
 
@@ -79,10 +94,21 @@ class CollegeMarketViewController: UIViewController, UICollectionViewDelegate, U
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // Get the new view controller using segue.destination.
         // Pass the selected object to the new view controller.
-        let cameraViewController = segue.destination as! PostProductViewController
-        cameraViewController.universityChosen = userInputRequest
-        
-        
+        if segue.identifier == "detailSegue" {
+            print("Loading Details Controller")
+            let detailsViewController = segue.destination as! itemDetailsViewController
+            
+            detailsViewController.postUser = sellerName
+            detailsViewController.postItem = sellerItem
+            detailsViewController.postPrice = sellerPrice
+            detailsViewController.postCategory = sellerCategory
+            detailsViewController.postDescription = sellerDescription
+            detailsViewController.postImage = urls
+            
+        } else if segue.identifier == "postSegue" {
+            let cameraViewController = segue.destination as! PostProductViewController
+            cameraViewController.universityChosen = userInputRequest
+        }
     }
 
 }
